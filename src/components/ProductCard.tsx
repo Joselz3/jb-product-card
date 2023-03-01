@@ -35,7 +35,6 @@ export const ProductCard = ({children,product,className,style,onChange,value, in
         className={`${styles.productCard} ${className}`}
         style={style}
       >
-      {/*  <img className={styles.productImg} src="./coffee-mug.png" alt="Caffee Mug" /> */}
       { 
         children({
           count:counter,
@@ -45,9 +44,6 @@ export const ProductCard = ({children,product,className,style,onChange,value, in
           increaseBy,
           reset
       }) }
-          {/* <ProductImage img={product.img}></ProductImage>
-        <ProductTitle title={product.title}></ProductTitle>
-        <ProductButtons increaseBy={increaseBy} counter={counter}></ProductButtons> */}
       
       </div>
     </Provider>
