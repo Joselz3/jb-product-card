@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitile debe mostrar el comoponente correctamente 1`] = `
+<span
+  className="productDescription undefined"
+>
+  costum product
+</span>
+`;
